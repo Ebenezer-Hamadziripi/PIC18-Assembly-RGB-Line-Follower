@@ -74,3 +74,28 @@ The robot uses **active RGB strobing**, **adaptive calibration**, and **PID-like
 3. Flash **Blue LED** → User presses button → Record thresholds  
 
 **Threshold Formula:**  
+Threshold = Measured_Value - Safety_Margin (10)
+
+### Start Condition
+Robot waits for a finger touch on the capacitive pad (RE0), detected via charge-time measurement.
+
+### Race Loop
+1. **Strobe:** Cycle R → G → B LEDs  
+2. **Sense:** Read ADC from all sensors  
+3. **Process:** Compare readings against calibration thresholds  
+4. **Drive:** Adjust motor PWM based on sensor error  
+
+---
+
+## 📈 Future Improvements
+
+- Interrupt-driven ADC sampling
+- Hardware SPI for shift registers (MSSP)
+- Full PID control implementation
+- Higher-speed race tuning
+
+---
+
+## 📜 License
+MIT License (or your preferred license)
+
