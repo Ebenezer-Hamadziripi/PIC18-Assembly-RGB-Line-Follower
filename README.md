@@ -34,11 +34,11 @@ The robot uses **active RGB strobing**, **adaptive calibration**, and **PID-like
 ### Sensors
 | Sensor | Pin | Function |
 |------|----|---------|
-| Center | RB3 (AN9) | Master Line Sensor |
+| Center | RB3 (AN9) | Line Detection |
 | Left Inner | RA1 (AN1) | Line Detection |
 | Right Inner | RA2 (AN2) | Line Detection |
-| Left Outer | RA3 (AN3) | Edge Detection |
-| Right Outer | RE2 (AN7) | Edge Detection |
+| Left Outer | RA3 (AN3) | Line Detection |
+| Right Outer | RE2 (AN7) | Line Detection |
 
 ### RGB Illumination
 | Color | Pin | Logic |
