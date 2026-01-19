@@ -3,6 +3,9 @@
 A high-performance autonomous **line-following robot** built on the **PIC18F45K22**, written entirely in **optimized Assembly language**.  
 The robot uses **active RGB strobing**, **adaptive calibration**, and **PID-like differential steering** for accurate, high-speed track following.
 
+> **Note:** The source code for this project is kept private to maintain academic integrity.
+
+
 ---
 
 ## 🌟 Key Features
